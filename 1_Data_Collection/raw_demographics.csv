@@ -1,0 +1,61 @@
+user_id,age,gender,zone,zone_type,profession,education_level,monthly_income_range,household_size,primary_mm_use,smartphone_owner,mm_provider,years_using_mm,activity_segment,activity_score_raw
+USER_001,35,Female,Bamenda - Nord-Ouest,suburban,Teacher,Secondary,"100,000-200,000 XAF",7,Personal,No,Both,1.9,Medium,3.15
+USER_002,27,Male,Douala - Littoral,urban,Healthcare Worker,No formal education,"50,000-100,000 XAF",1,Personal,No,MTN Mobile Money,1.1,Medium,3.91
+USER_003,45,Male,Maroua - Extrême-Nord,rural,Driver/Transport,No formal education,"100,000-200,000 XAF",3,Personal,Yes,MTN Mobile Money,1.3,Medium,2.42
+USER_004,40,Male,Ngaoundéré - Adamaoua,rural,Farmer,Secondary,"100,000-200,000 XAF",1,Business,Yes,Both,3.4,Medium,2.47
+USER_005,36,Female,Bamenda - Nord-Ouest,suburban,Self-Employed,Vocational,"100,000-200,000 XAF",5,Business,No,Orange Money,2.3,High,6.46
+USER_006,32,Male,Yaoundé - Centre,urban,Driver/Transport,University,"50,000-100,000 XAF",6,Both,Yes,MTN Mobile Money,1.3,High,6.4
+USER_007,57,Female,Douala - Littoral,urban,IT Professional,Secondary,"100,000-200,000 XAF",6,Both,Yes,MTN Mobile Money,5.1,High,9.03
+USER_008,52,Female,Kribi - Sud,suburban,IT Professional,No formal education,"200,000-500,000 XAF",4,Personal,No,Orange Money,4.2,Low,1.55
+USER_009,49,Male,Garoua - Nord,suburban,Farmer,University,"100,000-200,000 XAF",5,Business,Yes,MTN Mobile Money,3.5,Medium,4.54
+USER_010,29,Male,Ngaoundéré - Adamaoua,rural,Unemployed,Primary,"50,000-100,000 XAF",3,Business,Yes,MTN Mobile Money,2.5,Medium,3.69
+USER_011,26,Male,Bafoussam - Ouest,urban,Student,Primary,"50,000-100,000 XAF",4,Business,No,MTN Mobile Money,6.8,Medium,4.61
+USER_012,63,Male,Bafoussam - Ouest,urban,Student,Primary,"Above 500,000 XAF",3,Personal,Yes,Orange Money,4.0,Medium,2.87
+USER_013,38,Female,Garoua - Nord,suburban,IT Professional,University,"100,000-200,000 XAF",2,Business,Yes,Orange Money,1.1,High,8.08
+USER_014,56,Male,Yaoundé - Centre,urban,Trader/Merchant,Vocational,"200,000-500,000 XAF",4,Personal,Yes,MTN Mobile Money,5.0,Medium,4.45
+USER_015,36,Female,Yaoundé - Centre,urban,Driver/Transport,Primary,"200,000-500,000 XAF",3,Business,No,Orange Money,3.9,Medium,4.83
+USER_016,30,Male,Ngaoundéré - Adamaoua,rural,Teacher,University,"100,000-200,000 XAF",6,Both,No,MTN Mobile Money,6.3,Low,1.4
+USER_017,57,Female,Kribi - Sud,suburban,Self-Employed,Vocational,"Below 50,000 XAF",5,Personal,Yes,Orange Money,5.0,Low,1.93
+USER_018,46,Male,Bamenda - Nord-Ouest,suburban,Student,Vocational,"Below 50,000 XAF",7,Both,Yes,Orange Money,3.8,Medium,2.9
+USER_019,46,Male,Garoua - Nord,suburban,Healthcare Worker,Secondary,"Above 500,000 XAF",6,Business,Yes,Orange Money,1.8,High,5.81
+USER_020,50,Male,Yaoundé - Centre,urban,Student,No formal education,"Above 500,000 XAF",1,Both,No,Both,2.6,Medium,3.64
+USER_021,42,Female,Maroua - Extrême-Nord,rural,Farmer,Secondary,"50,000-100,000 XAF",3,Personal,Yes,Both,5.0,Medium,2.28
+USER_022,43,Male,Garoua - Nord,suburban,Healthcare Worker,Secondary,"100,000-200,000 XAF",2,Both,Yes,Orange Money,4.1,Medium,3.23
+USER_023,32,Male,Douala - Littoral,urban,Self-Employed,University,"100,000-200,000 XAF",7,Business,No,Orange Money,6.3,High,5.01
+USER_024,34,Male,Yaoundé - Centre,urban,IT Professional,University,"100,000-200,000 XAF",4,Personal,Yes,MTN Mobile Money,4.0,High,5.21
+USER_025,33,Female,Douala - Littoral,urban,Teacher,Vocational,"200,000-500,000 XAF",3,Business,Yes,MTN Mobile Money,6.8,Medium,4.06
+USER_026,50,Male,Douala - Littoral,urban,Trader/Merchant,Secondary,"50,000-100,000 XAF",5,Personal,Yes,MTN Mobile Money,2.1,High,6.3
+USER_027,42,Female,Bamenda - Nord-Ouest,suburban,Teacher,Vocational,"200,000-500,000 XAF",2,Both,Yes,Orange Money,1.5,High,7.89
+USER_028,24,Male,Yaoundé - Centre,urban,Student,Secondary,"200,000-500,000 XAF",5,Personal,Yes,Orange Money,0.8,Medium,3.9
+USER_029,62,Female,Douala - Littoral,urban,Unemployed,Vocational,"50,000-100,000 XAF",5,Personal,Yes,Orange Money,0.7,Medium,4.36
+USER_030,44,Female,Garoua - Nord,suburban,Civil Servant,Vocational,"100,000-200,000 XAF",5,Business,No,Orange Money,1.8,High,5.7
+USER_031,31,Male,Douala - Littoral,urban,Trader/Merchant,Vocational,"100,000-200,000 XAF",2,Business,Yes,MTN Mobile Money,3.7,High,9.36
+USER_032,49,Male,Maroua - Extrême-Nord,rural,Self-Employed,University,"200,000-500,000 XAF",2,Both,No,Both,3.2,Medium,2.16
+USER_033,35,Female,Douala - Littoral,urban,Teacher,Secondary,"200,000-500,000 XAF",2,Personal,Yes,Orange Money,3.0,High,5.19
+USER_034,32,Male,Yaoundé - Centre,urban,Driver/Transport,University,"50,000-100,000 XAF",4,Personal,Yes,MTN Mobile Money,1.1,Medium,3.4
+USER_035,44,Female,Yaoundé - Centre,urban,Teacher,University,"200,000-500,000 XAF",4,Personal,Yes,MTN Mobile Money,6.3,Medium,2.65
+USER_036,34,Male,Yaoundé - Centre,urban,Unemployed,University,"100,000-200,000 XAF",3,Personal,Yes,Both,1.5,Medium,4.78
+USER_037,41,Male,Garoua - Nord,suburban,Student,University,"Below 50,000 XAF",4,Personal,No,Orange Money,3.0,Medium,2.24
+USER_038,49,Male,Douala - Littoral,urban,Trader/Merchant,Secondary,"100,000-200,000 XAF",7,Both,No,Orange Money,4.9,High,6.71
+USER_039,30,Male,Bafoussam - Ouest,urban,Driver/Transport,University,"50,000-100,000 XAF",4,Both,Yes,Orange Money,6.8,High,6.48
+USER_040,41,Female,Bamenda - Nord-Ouest,suburban,Student,Vocational,"50,000-100,000 XAF",4,Business,Yes,MTN Mobile Money,3.5,High,5.46
+USER_041,35,Female,Yaoundé - Centre,urban,Driver/Transport,Secondary,"50,000-100,000 XAF",7,Personal,Yes,MTN Mobile Money,6.6,Low,0.76
+USER_042,37,Female,Ngaoundéré - Adamaoua,rural,Unemployed,University,"100,000-200,000 XAF",6,Both,Yes,Orange Money,3.0,Medium,2.3
+USER_043,63,Female,Ngaoundéré - Adamaoua,rural,Civil Servant,No formal education,"100,000-200,000 XAF",5,Both,No,Orange Money,5.2,High,6.87
+USER_044,52,Male,Yaoundé - Centre,urban,Driver/Transport,Primary,"200,000-500,000 XAF",1,Business,Yes,MTN Mobile Money,1.2,High,5.8
+USER_045,47,Male,Kribi - Sud,suburban,Civil Servant,University,"200,000-500,000 XAF",6,Personal,Yes,MTN Mobile Money,5.4,Medium,4.25
+USER_046,45,Female,Yaoundé - Centre,urban,Healthcare Worker,Vocational,"Above 500,000 XAF",7,Business,Yes,Orange Money,4.1,High,7.91
+USER_047,38,Female,Douala - Littoral,urban,Unemployed,University,"200,000-500,000 XAF",1,Personal,No,Orange Money,2.6,Low,1.92
+USER_048,45,Male,Yaoundé - Centre,urban,Driver/Transport,Vocational,"100,000-200,000 XAF",7,Personal,Yes,MTN Mobile Money,6.2,Low,1.78
+USER_049,41,Female,Garoua - Nord,suburban,Trader/Merchant,No formal education,"50,000-100,000 XAF",2,Personal,Yes,Orange Money,1.8,Medium,3.16
+USER_050,35,Male,Bamenda - Nord-Ouest,suburban,Driver/Transport,Primary,"50,000-100,000 XAF",4,Personal,Yes,MTN Mobile Money,6.1,Medium,4.96
+USER_051,22,Female,Maroua - Extrême-Nord,rural,Self-Employed,Vocational,"200,000-500,000 XAF",3,Both,Yes,MTN Mobile Money,5.1,Low,0.71
+USER_052,59,Male,Bafoussam - Ouest,urban,Civil Servant,Secondary,"200,000-500,000 XAF",2,Personal,Yes,MTN Mobile Money,1.9,Medium,3.64
+USER_053,34,Male,Ngaoundéré - Adamaoua,rural,Farmer,Vocational,"50,000-100,000 XAF",3,Business,No,Orange Money,4.3,High,5.26
+USER_054,43,Male,Douala - Littoral,urban,Farmer,Vocational,"100,000-200,000 XAF",1,Personal,Yes,MTN Mobile Money,1.5,Medium,3.84
+USER_055,27,Male,Yaoundé - Centre,urban,IT Professional,University,"50,000-100,000 XAF",6,Personal,No,Orange Money,5.2,Medium,4.22
+USER_056,55,Female,Bafoussam - Ouest,urban,Unemployed,Secondary,"100,000-200,000 XAF",3,Personal,Yes,MTN Mobile Money,1.2,Low,1.5
+USER_057,45,Male,Garoua - Nord,suburban,Farmer,Secondary,"100,000-200,000 XAF",3,Business,Yes,MTN Mobile Money,4.9,Low,0.79
+USER_058,22,Male,Yaoundé - Centre,urban,Driver/Transport,Vocational,"50,000-100,000 XAF",1,Both,No,Both,1.3,Medium,2.45
+USER_059,51,Female,Yaoundé - Centre,urban,Trader/Merchant,University,"200,000-500,000 XAF",5,Both,No,MTN Mobile Money,2.0,High,7.04
+USER_060,45,Female,Douala - Littoral,urban,Unemployed,Secondary,"100,000-200,000 XAF",1,Personal,Yes,Orange Money,3.8,Low,1.49

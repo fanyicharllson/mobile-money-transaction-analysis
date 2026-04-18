@@ -1,0 +1,6 @@
+Model,Val Accuracy,Val F1,Val AUC,CV Mean,CV Std
+Logistic Regression,0.889,0.838,0.944,0.700,±0.215
+Decision Tree,1.000,1.000,1.000,0.667,±0.140
+Random Forest,1.000,1.000,1.000,0.789,±0.079
+Gradient Boosting,1.000,1.000,1.000,0.667,±0.091
+KNN,0.889,0.838,0.944,0.694,±0.077
