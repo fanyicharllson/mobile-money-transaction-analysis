@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 # DATA CLEANING & PREPARATION NOTEBOOK
-# CSC 3221 - Introduction to Data Science
+# CSC 3221 - Introduction to Data Science Course
 # ICT University Cameroon
 # Mobile Money Transaction Analysis
 
