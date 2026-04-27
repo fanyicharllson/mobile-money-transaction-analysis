@@ -35,7 +35,7 @@
 
 ---
 
-## Member 3 — NJIFON ERIC DENIS | ICU20234391
+## Member 3 — NJIFON ERIC DENIS | ICTU20234391
 **Role: Machine Learning Modeling + Evaluation**
 
 - Recruited 12 participants (USER_025 to USER_036)
