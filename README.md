@@ -7,10 +7,10 @@
 
 | Name | Student ID | Role |
 |------|-----------|------|
-| [FANYI CHARLLSON FANYI] | [ICTU20233841] | Data Collection Lead + EDA |
-| [ETAN WILL JOHN] | [ICTU20233606] | Data Cleaning + Feature Engineering |
-| [NJIFON ERIC DENIS] | [ICTU20234391] | Modeling + Model Evaluation |
-| [MADONGUE JEANNE LESLINE] | [ICTU20222931] | Report Writing + Visualization |
+| FANYI CHARLLSON FANYI | [ICTU20233841] | Data Collection Lead + EDA |
+| ETAN WILL JOHN | [ICTU20233606] | Data Cleaning + Feature Engineering |
+| NJIFON ERIC DENIS | [ICTU20234391] | Modeling + Model Evaluation |
+| MADONGUE JEANNE LESLINE | [ICTU20222931] | Report Writing + Visualization |
 
 ---
 
