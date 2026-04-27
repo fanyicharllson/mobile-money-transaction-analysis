@@ -26,7 +26,7 @@ import warnings
 import os
 warnings.filterwarnings('ignore')
 
-os.makedirs('/home/claude/project/4_Modeling/results', exist_ok=True)
+os.makedirs('results', exist_ok=True)
 
 COLORS = ['#028090', '#F0A500', '#E63946', '#02C39A', '#8B5CF6']
 plt.rcParams.update({'figure.dpi': 120, 'axes.spines.top': False, 'axes.spines.right': False})
@@ -35,7 +35,7 @@ print("=" * 60)
 print("STEP 1: LOAD & PREPARE DATA")
 print("=" * 60)
 
-df = pd.read_csv('/home/claude/project/2_Data_Cleaning/cleaned_data.csv')
+df = pd.read_csv('../2_Data_Cleaning/cleaned_data.csv')
 
 # Feature selection
 FEATURE_COLS = [
@@ -219,7 +219,7 @@ for bar, score in zip(bars, f1_scores):
 axes[2].set_facecolor('#F8FAFC')
 
 plt.tight_layout()
-plt.savefig('/home/claude/project/4_Modeling/results/model_evaluation.png', bbox_inches='tight', dpi=150)
+plt.savefig('results/model_evaluation.png', bbox_inches='tight', dpi=150)
 plt.close()
 print("Model evaluation plots saved.")
 
@@ -245,7 +245,7 @@ ax.set_title(f'Top Feature Importances — {best_model_name}', fontsize=14, font
 ax.set_xlabel('Importance Score')
 ax.set_facecolor('#F8FAFC')
 plt.tight_layout()
-plt.savefig('/home/claude/project/4_Modeling/results/feature_importance.png', bbox_inches='tight', dpi=150)
+plt.savefig('results/feature_importance.png', bbox_inches='tight', dpi=150)
 plt.close()
 print("Feature importance plot saved.")
 
@@ -253,11 +253,11 @@ print("\n" + "=" * 60)
 print("STEP 7: SAVE BEST MODEL")
 print("=" * 60)
 
-joblib.dump(best_model, '/home/claude/project/4_Modeling/best_model.pkl')
-joblib.dump(scaler, '/home/claude/project/4_Modeling/scaler.pkl')
+joblib.dump(best_model, 'best_model.pkl')
+joblib.dump(scaler, 'scaler.pkl')
 print(f"Best model saved: {best_model_name}")
 
 # Save comparison table
-comparison_df.to_csv('/home/claude/project/4_Modeling/results/model_comparison.csv', index=False)
+comparison_df.to_csv('results/model_comparison.csv', index=False)
 print("Model comparison saved.")
 print("\nModeling pipeline complete!")

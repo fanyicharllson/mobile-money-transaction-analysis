@@ -16,7 +16,7 @@ import warnings
 import os
 warnings.filterwarnings('ignore')
 
-os.makedirs('/home/claude/project/3_EDA/visualizations', exist_ok=True)
+os.makedirs('../3_EDA/visualizations', exist_ok=True)
 
 PALETTE = {'High': '#028090', 'Medium': '#F0A500', 'Low': '#E63946'}
 COLORS = ['#028090', '#02C39A', '#F0A500', '#E63946', '#6B7280', '#8B5CF6', '#EC4899', '#14B8A6']
@@ -24,9 +24,9 @@ plt.rcParams.update({'font.family': 'DejaVu Sans', 'figure.dpi': 120, 'axes.spin
                      'axes.spines.right': False, 'axes.labelsize': 11, 'axes.titlesize': 13,
                      'xtick.labelsize': 9, 'ytick.labelsize': 9})
 
-final_df = pd.read_csv('/home/claude/project/2_Data_Cleaning/cleaned_data.csv')
-tx = pd.read_csv('/home/claude/project/2_Data_Cleaning/cleaned_transactions.csv')
-user_feat = pd.read_csv('/home/claude/project/2_Data_Cleaning/user_features.csv')
+final_df = pd.read_csv('../2_Data_Cleaning/cleaned_data.csv')
+tx = pd.read_csv('../2_Data_Cleaning/cleaned_transactions.csv')
+user_feat = pd.read_csv('../2_Data_Cleaning/user_features.csv')
 tx['transaction_date'] = pd.to_datetime(tx['transaction_date'])
 
 print(f"Dataset loaded: {final_df.shape[0]} users, {len(tx)} transactions")
@@ -55,7 +55,7 @@ for ax, col, label, color in zip(
     ax.set_facecolor('#F8FAFC')
 
 plt.tight_layout()
-plt.savefig('/home/claude/project/3_EDA/visualizations/01_distribution_plots.png', bbox_inches='tight', dpi=150)
+plt.savefig('visualizations/01_distribution_plots.png', bbox_inches='tight', dpi=150)
 plt.close()
 print("Chart 1 saved: distribution plots")
 
@@ -87,7 +87,7 @@ for ax, (col, label) in zip(axes, metrics):
     ax.set_facecolor('#F8FAFC')
 
 plt.tight_layout()
-plt.savefig('/home/claude/project/3_EDA/visualizations/02_boxplots_segments.png', bbox_inches='tight', dpi=150)
+plt.savefig('visualizations/02_boxplots_segments.png', bbox_inches='tight', dpi=150)
 plt.close()
 print("Chart 2 saved: box plots")
 
@@ -123,7 +123,7 @@ lines2, labels2 = ax2.get_legend_handles_labels()
 ax1.legend(lines1 + lines2, labels1 + labels2, loc='upper left', fontsize=9)
 ax1.set_facecolor('#F8FAFC')
 fig.tight_layout()
-plt.savefig('/home/claude/project/3_EDA/visualizations/03_time_series.png', bbox_inches='tight', dpi=150)
+plt.savefig('visualizations/03_time_series.png', bbox_inches='tight', dpi=150)
 plt.close()
 print("Chart 3 saved: time series")
 
@@ -148,7 +148,7 @@ ax.set_title('Correlation Heatmap of Numerical Features', fontsize=14, fontweigh
 plt.xticks(rotation=45, ha='right', fontsize=9)
 plt.yticks(rotation=0, fontsize=9)
 plt.tight_layout()
-plt.savefig('/home/claude/project/3_EDA/visualizations/04_correlation_heatmap.png', bbox_inches='tight', dpi=150)
+plt.savefig('visualizations/04_correlation_heatmap.png', bbox_inches='tight', dpi=150)
 plt.close()
 print("Chart 4 saved: correlation heatmap")
 
@@ -189,7 +189,7 @@ axes[2].set_xlabel('Count')
 axes[2].set_facecolor('#F8FAFC')
 
 plt.tight_layout()
-plt.savefig('/home/claude/project/3_EDA/visualizations/05_bar_charts.png', bbox_inches='tight', dpi=150)
+plt.savefig('visualizations/05_bar_charts.png', bbox_inches='tight', dpi=150)
 plt.close()
 print("Chart 5 saved: bar charts")
 
@@ -212,7 +212,7 @@ ax.set_title('Income Level vs Average Monthly Transaction Amount', fontsize=14, 
 ax.legend(title='Activity Segment', fontsize=10)
 ax.set_facecolor('#F8FAFC')
 plt.tight_layout()
-plt.savefig('/home/claude/project/3_EDA/visualizations/06_scatter_income_amount.png', bbox_inches='tight', dpi=150)
+plt.savefig('visualizations/06_scatter_income_amount.png', bbox_inches='tight', dpi=150)
 plt.close()
 print("Chart 6 saved: scatter plot")
 
@@ -245,7 +245,7 @@ axes[1].legend(title='Segment', fontsize=9)
 axes[1].set_facecolor('#F8FAFC')
 
 plt.tight_layout()
-plt.savefig('/home/claude/project/3_EDA/visualizations/07_grouped_comparisons.png', bbox_inches='tight', dpi=150)
+plt.savefig('visualizations/07_grouped_comparisons.png', bbox_inches='tight', dpi=150)
 plt.close()
 print("Chart 7 saved: grouped comparisons")
 
@@ -277,7 +277,7 @@ ax.annotate('Low-frequency\ncasual users', xy=(1, 18000), xytext=(2, 8000),
             arrowprops=dict(arrowstyle='->', color='#E63946', lw=1.5))
 ax.set_facecolor('#F8FAFC')
 plt.tight_layout()
-plt.savefig('/home/claude/project/3_EDA/visualizations/08_bubble_chart_advanced.png', bbox_inches='tight', dpi=150)
+plt.savefig('visualizations/08_bubble_chart_advanced.png', bbox_inches='tight', dpi=150)
 plt.close()
 print("Chart 8 saved: advanced bubble chart")
 
@@ -313,7 +313,7 @@ for bar in axes[1].patches:
                  f'{bar.get_height():.1f}%', ha='center', fontsize=11, fontweight='bold')
 
 plt.tight_layout()
-plt.savefig('/home/claude/project/3_EDA/visualizations/09_weekend_weekday.png', bbox_inches='tight', dpi=150)
+plt.savefig('visualizations/09_weekend_weekday.png', bbox_inches='tight', dpi=150)
 plt.close()
 print("Chart 9 saved: weekend/weekday")
 
@@ -351,4 +351,4 @@ insights = [
 for insight in insights:
     print(insight)
 
-print("\nEDA complete. All charts saved to /home/claude/project/3_EDA/visualizations/")
+print("\nEDA complete. All charts saved to visualizations/")

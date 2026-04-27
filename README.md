@@ -7,11 +7,10 @@
 
 | Name | Student ID | Role |
 |------|-----------|------|
-| [Member 1] | [ID] | Data Collection Lead + EDA |
-| [Member 2] | [ID] | Data Cleaning + Feature Engineering |
-| [Member 3] | [ID] | Modeling + Model Evaluation |
-| [Member 4] | [ID] | Report Writing + Visualization |
-| [Member 5] | [ID] | Presentation + Business Insights |
+| [FANYI CHARLLSON FANYI] | [ICTU20233841] | Data Collection Lead + EDA |
+| [ETAN WILL JOHN] | [ICTU20233606] | Data Cleaning + Feature Engineering |
+| [NJIFON ERIC DENIS] | [ICTU20234391] | Modeling + Model Evaluation |
+| [MADONGUE JEANNE LESLINE] | [ICTU20222931] | Report Writing + Visualization |
 
 ---
 
@@ -28,7 +27,7 @@ This project analyzes mobile money transaction patterns (MTN Mobile Money & Oran
 ## File Structure
 
 ```
-DataScience_Final_GroupX_[GroupName]/
+DataScience_Final_Group57_[Team Zeta-Chi]/
 │
 ├── README.md                          ← This file
 ├── CONTRIBUTIONS.md                   ← Member contribution breakdown
@@ -138,4 +137,4 @@ See `requirements.txt` for full list. Core: pandas, numpy, scikit-learn, matplot
 ## Submission
 - **Deadline:** Sunday, 3rd May 2026 at 11:59 PM WAT
 - **Submit to:** Kuetche.fotsing@ictuniversity.edu.cm
-- **Subject:** "Data Science Final Project - Group X - [GroupName]"
+- **Subject:** "Data Science Final Project - Group 57 - [Team Zeta-Chi]"

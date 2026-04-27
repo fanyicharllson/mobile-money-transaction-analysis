@@ -23,15 +23,15 @@ plt.style.use('seaborn-v0_8-whitegrid')
 COLORS = {'primary': '#028090', 'secondary': '#02C39A', 'accent': '#F0A500',
           'danger': '#E63946', 'neutral': '#6B7280'}
 
-os.makedirs('/home/claude/project/2_Data_Cleaning', exist_ok=True)
-os.makedirs('/home/claude/project/3_EDA/visualizations', exist_ok=True)
+os.makedirs('.', exist_ok=True)
+os.makedirs('../3_EDA/visualizations', exist_ok=True)
 
 print("=" * 60)
 print("STEP 1: LOADING RAW DATA")
 print("=" * 60)
 
-tx_raw = pd.read_csv('/home/claude/project/1_Data_Collection/raw_transactions.csv')
-demo_raw = pd.read_csv('/home/claude/project/1_Data_Collection/raw_demographics.csv')
+tx_raw = pd.read_csv('../1_Data_Collection/raw_transactions.csv')
+demo_raw = pd.read_csv('../1_Data_Collection/raw_demographics.csv')
 
 print(f"Raw transactions shape: {tx_raw.shape}")
 print(f"Raw demographics shape: {demo_raw.shape}")
@@ -238,9 +238,9 @@ print(f"Final dataset shape: {final_df.shape}")
 print(f"Target distribution:\n{final_df['activity_segment'].value_counts()}")
 
 # Save cleaned datasets
-tx.to_csv('/home/claude/project/2_Data_Cleaning/cleaned_transactions.csv', index=False)
-final_df.to_csv('/home/claude/project/2_Data_Cleaning/cleaned_data.csv', index=False)
-user_features.to_csv('/home/claude/project/2_Data_Cleaning/user_features.csv', index=False)
+tx.to_csv('cleaned_transactions.csv', index=False)
+final_df.to_csv('cleaned_data.csv', index=False)
+user_features.to_csv('user_features.csv', index=False)
 
 ##############################################################
 print("\n" + "=" * 60)
