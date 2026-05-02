@@ -60,7 +60,7 @@
 - Coordinated document formatting and PDF generation
 
 
-## Member 5 — MAKUETE TENETCHI JULIE FORTUNE |
+## Member 5 — MAKUETE TENETCHI JULIE FORTUNE | ICTU20233770
 **Role: Report Writing + Visualization Design**
 - Wrote the Interpretation Report and Business Recommendations document
 - Coordinated document formatting and PDF generation
