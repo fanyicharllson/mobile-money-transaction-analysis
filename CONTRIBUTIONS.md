@@ -59,6 +59,12 @@
 - Wrote the Interpretation Report and Business Recommendations document
 - Coordinated document formatting and PDF generation
 
+
+## Member 5 — MAKUETE TENETCHI JULIE FORTUNE |
+**Role: Report Writing + Visualization Design**
+- Wrote the Interpretation Report and Business Recommendations document
+- Coordinated document formatting and PDF generation
+
 **Slides presented:** Slide 9 (Feature Importance), Slide 10 (Business Recommendations)
 
 

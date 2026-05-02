@@ -11,6 +11,7 @@
 | ETAN WILL JOHN | ICTU20233606 | Data Cleaning + Feature Engineering |
 | NJIFON ERIC DENIS | ICTU20234391 | Modeling + Model Evaluation |
 | MADONGUE JEANNE LESLINE | ICTU20222931 | Report Writing + Visualization |
+| MAKUETE TENETCHIT JULIE FORTUNE |  | Report Writing  |
 
 ---
 
